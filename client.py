@@ -4,7 +4,7 @@ import sys
 import pygame
 import requests
 
-API_BASE_URL = os.environ.get("WORDLE_API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_BASE_URL = "https://wordle-midtern.onrender.com"
 
 COLOR_BG = (18, 18, 19)
 COLOR_TEXT = (255, 255, 255)
